@@ -1,0 +1,14 @@
+{
+  "disc_spin": {
+    "subtitle": "subtitles.throwable_discs.disc_spin",
+    "sounds": [
+      "throwable_discs:disc_spin"
+    ]
+  },
+  "disc_throw": {
+    "subtitle": "subtitles.throwable_discs.disc_throw",
+    "sounds": [
+      "throwable_discs:disc_throw"
+    ]
+  }
+}

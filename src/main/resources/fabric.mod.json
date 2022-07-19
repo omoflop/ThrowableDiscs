@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "throwable_discs",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Throwable Discs",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "omoflop"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,25 +14,25 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/throwable_discs/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "mod.omo.discs.ThrowableDiscsMod"
+    ],
+    "client": [
+      "mod.omo.discs.ThrowableDiscsClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "throwable_discs.mixins.json"
   ],
-
+  "accessWidener": "throwable_discs.accesswidener",
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
